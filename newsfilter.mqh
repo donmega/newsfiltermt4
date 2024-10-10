@@ -25,14 +25,14 @@ int URLDownloadToFileW(int pCaller, string szURL, string szFileName, int dwReser
 input string p01 = "***NEWS FILTER***";              //******** NEWS FILTER ********
 input bool news_High = true;                         // Use High News Filter
 input bool news_High_Line = true;                    // Use High News Line (Red Line)
-input int minBefore = 120;                            // Minutes Before High Impact News
-input int minAfter = 120;                             // Minutes After High Impact News
-input bool news_Medium = true;                       // Use Medium News Filter
-input bool news_Medium_Line = true;                  // Use Medium News Line (Orange Line)
-input int minBefore1 = 60;                            // Minutes Before Medium Impact News
-input int minAfter1 = 60;                             // Minutes After Medium Impact News
-input bool news_Low = true;                          // Use Low News Filter
-input bool news_Low_Line = true;                     // Use Low News Line (Yellow Line)
+input int minBefore = 30;                            // Minutes Before High Impact News
+input int minAfter = 30;                             // Minutes After High Impact News
+input bool news_Medium = false;                       // Use Medium News Filter
+input bool news_Medium_Line = false;                  // Use Medium News Line (Orange Line)
+input int minBefore1 = 30;                            // Minutes Before Medium Impact News
+input int minAfter1 = 30;                             // Minutes After Medium Impact News
+input bool news_Low = false;                          // Use Low News Filter
+input bool news_Low_Line = false;                     // Use Low News Line (Yellow Line)
 input int minBefore2 = 30;                            // Minutes Before Low Impact News
 input int minAfter2 = 30;                             // Minutes After Low Impact News
 
